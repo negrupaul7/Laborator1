@@ -4,12 +4,14 @@ using namespace std;
 
 int main()
 {
-    int v;
-    cout << "Introduceti varsta : ";
-    cin >> v;
-    if(v >= 18)
-        cout << "Major" << endl;
+    int v1, v2;
+    cout << "Introduceti v1 : ";
+    cin >> v1;
+    cout << "Introduceti v2 : ";
+    cin >> v2;
+    if(v1 < v2)
+        cout << "Ordine crescatoare" << endl;
     else
-        cout << "Minor" << endl;
+        cout << "Ordine descrescatoare" << endl;
     return 0;
 }
